@@ -21,6 +21,11 @@ env/
 *.csv
 golden_dataset.csv
 !reports/*.csv
+# Deliverable CSVs phai duoc commit (khong dinh vao rule *.csv o tren)
+!outputs/graphrag_eval_results.csv
+!outputs/graphrag_vs_flatrag_summary.csv
+!outputs/golden_dataset.csv
+!outputs/entity_resolution_audit.csv
 *.jsonl
 *.parquet
 *.pq
@@ -28,3 +33,6 @@ golden_dataset.csv
 # OS files
 .DS_Store
 Thumbs.db
+
+# Log rac do Electron/Chromium (VS Code) sinh ra
+debug.log

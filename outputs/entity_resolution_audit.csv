@@ -1,0 +1,22 @@
+type,left,right,similarity,decision
+Company,Meta Platforms Inc,Meta,1.0,MERGE_MANUAL
+Company,Microsoft Corp.,Microsoft,1.0,MERGE_MANUAL
+Company,Apple Inc,Apple,1.0,MERGE_MANUAL
+Company,Meta Platforms,Meta,1.0,MERGE_MANUAL
+Company,Advanced Micro Devices Inc.,Advanced Micro Devices Inc,0.9829789400100708,MERGE_VECTOR
+Company,Advanced Micro Devices Inc.,Advanced Micro Devices Inc,0.9829788208007812,MERGE_LEXICAL
+Company,Activision Blizzard,Activision Blizzard Inc.,0.918491542339325,MERGE_VECTOR
+Company,Activision Blizzard,Activision Blizzard Inc.,0.9184914827346802,MERGE_LEXICAL
+Technology,GeForce RTX 4060 Ti,GeForce RTX 4060 series,0.9123713970184326,MERGE_VECTOR
+Company,Qualcomm,Qualcomm Technologies,0.8582329750061035,REJECT_THRESHOLD
+Technology,ChatGPT,ChatGPT API,0.8359296321868896,REJECT_THRESHOLD
+Technology,cloud computing,cloud services,0.8303914070129395,REJECT_THRESHOLD
+Company,Advanced Micro Devices,Advanced Micro Devices Inc,0.8174481391906738,REJECT_THRESHOLD
+Company,Intel Corp,Intel,0.8151812553405762,MERGE_LEXICAL
+Company,Intel Corp,Intel,0.8151811957359314,REJECT_THRESHOLD
+Company,Adobe Inc.,Adobe,0.814495325088501,REJECT_THRESHOLD
+Company,Adobe Inc.,Adobe,0.814495325088501,MERGE_LEXICAL
+Technology,RTX 4090,RTX 4070,0.8027792572975159,REJECT_THRESHOLD
+Company,Tesla,Tesla Technology,0.8007705211639404,REJECT_THRESHOLD
+Company,Twitter,Twitter Inc.,0.7839344143867493,MERGE_LEXICAL
+Company,Advanced Micro Devices Inc.,Advanced Micro Devices,0.7734248638153076,MERGE_LEXICAL
